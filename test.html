@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <script>
+'use strict';
+
+window.addEventListener('load', () => {
+
+    const params = (new URL(document.location)).searchParams;
+    const email = params.get('emailaddr');
+    const password = params.get('pwd');
+	const curUser = window.localStorage.getItem('currentuser');
+
+    document.getElementById('test').innerHTML = "Email: " + email + ", Password: " + password + ", Current User: " + curUser;
+
+}) ;
+    </script>
+</head>
+<body>
+
+    <h2>Login User&apos;s information is listed here: </h2>
+    <div id="test"></div>
+
+</body>
+</html>

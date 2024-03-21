@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* CSS Document for the templete page */
+/* Script Date: February 16, 2024 */
+/* Developed by:    Team 7 - 6264981 Jing Yang , 6269237 Tao Wang , 6284368 Shuting Tang */
+
+
+
+#container {
+    clear: both;
+    width: 90%;
+    height: auto;
+    margin: 1% 5%;
+    
+}
+
+
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+    color: white;
+    border-radius: 10px;
+    background-color: hsla(210, 99%, 34%, 0.8);
+}
+
+
+#header,.navbar{
+    height: 150px;
+}
+
+
+
+#footer{
+    width: 100%;
+    border-radius: 10px;
+    background: url('../images/homepage-banner.png') no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.navbar img{
+    width: 220px;
+    height: 12%;
+    margin: 1%;
+}
+
+
+#logo-text{
+    margin:none;
+    color: white;
+    text-decoration: none;
+} 
+
+
+
+.navbar ul{
+    align-items: center;
+    margin-right: 0px;
+}
+
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+
+.navbar li a:hover{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.navbar ul li a img{
+    width: 25px;
+    margin-left: 15px;
+}
+
+.navbar ul li a img{
+    width: 30px;
+    margin-left: 5px;
+}
+
+#insurance .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#insurance .row img{
+    width: 200px; 
+    margin: 40px;
+}
+#insurance{
+    width:100%;
+}
+
+.service-container {
+    width: 100%;
+    margin: 20px 0 50px;
+}
+
+.service-container a{
+    text-decoration: none;
+}
+
+
+
+.service-container p{
+    width: 100%;
+    padding: 0 50px;
+    color: #434343;
+    text-align: center;
+}
+
+.item-block {
+    margin: 50px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
